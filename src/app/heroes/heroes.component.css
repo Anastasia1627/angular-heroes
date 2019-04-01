@@ -1,8 +1,9 @@
 .heroes {
-    margin: 0 0 2em 0;
+    margin: auto;
     list-style-type: none;
     padding: 0;
     width: 15em;
+    text-align: initial;
 }
 .heroes li {
     position: relative;
@@ -45,21 +46,26 @@
     border-radius: 4px 0 0 4px;
 }
 button {
+    margin: 5px;
+    color: #607d8b;
     background-color: #eee;
     border: none;
     padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
-    cursor: hand;
     font-family: Arial;
 }
 button:hover {
     background-color: #cfd8dc;
 }
 button.delete {
+    margin: 0;
     position: relative;
     left: 194px;
     top: -32px;
-    background-color: gray !important;
+    background-color: gray;
     color: white;
+}
+div label{
+    color: #999;
 }

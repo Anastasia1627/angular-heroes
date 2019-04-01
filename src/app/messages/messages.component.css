@@ -1,5 +1,5 @@
 h2 {
-    color: red;
+    color: #607d8b;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
@@ -11,13 +11,14 @@ body, input[text], button {
     font-family: Cambria, Georgia;
 }
 button.clear {
+    margin: 5px;
+    color: #607d8b;
     font-family: Arial;
     background-color: #eee;
     border: none;
     padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
-    cursor: hand;
 }
 button:hover {
     background-color: #cfd8dc;
@@ -28,6 +29,8 @@ button:disabled {
     cursor: auto;
 }
 button.clear {
-    color: #888;
     margin-bottom: 12px;
+}
+.message{
+    color: #999;
 }

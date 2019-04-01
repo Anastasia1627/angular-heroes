@@ -1,9 +1,11 @@
+.search-title{
+    color: #607D8B;
+}
 .search-result li {
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
-    width: 195px;
-    height: 16px;
+    width: 193px;
     padding: 5px;
     background-color: white;
     cursor: pointer;
@@ -30,4 +32,5 @@
 ul.search-result {
     margin-top: 0;
     padding-left: 0;
+    text-align: -webkit-center;
 }
